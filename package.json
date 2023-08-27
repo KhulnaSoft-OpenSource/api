@@ -3,7 +3,7 @@
   "version": "1.47.0-beta.2",
   "keywords": [],
   "description": "API dot KhulnaSoft OpenSource is NestJS and SupaBase powered OAS3 backend designed to remove client complexity and provide a structured graph of all @khulnasoft-opensource integrations",
-  "author": "TED Vortex <ted.vortex@gmail.com>",
+  "author": "Md Sulaiman <infosulaimanbd@gmail.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
