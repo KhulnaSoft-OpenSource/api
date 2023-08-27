@@ -23,8 +23,8 @@
     "url": "git+https://github.com/khulnasoft-opensource/api.khulnasoft.com.git"
   },
   "engines": {
-    "node": ">= 16.15",
-    "npm": ">= 8.12"
+    "node": ">= 16.7.0",
+    "npm": ">= 8.0.0"
   },
   "scripts": {
     "types:auto-add": "npx typesync",
