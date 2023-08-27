@@ -27,7 +27,7 @@ jobs:
 
   test:
     name: Test and lint
-    uses: khulnasoft-opensource/hot/.github/workflows/development.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/compliance.yml@main
 
   docker:
     name: Build container
@@ -194,7 +194,7 @@ jobs:
 
       - name: "🚀 release"
         id: semantic-release
-        uses: khulnasoft-opensource/release@v1
+        uses: khulnasoft-opensource/trending@v2.33.2-beta.1
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

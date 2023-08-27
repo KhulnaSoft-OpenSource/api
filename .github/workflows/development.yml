@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    uses: khulnasoft-opensource/hot/.github/workflows/development.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/development.yml@main
 
   build:
     name: Build application

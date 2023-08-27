@@ -10,4 +10,4 @@ on:
 
 jobs:
   analyze:
-    uses: khulnasoft-opensource/hot/.github/workflows/codeql-analysis.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/codeql-analysis.yml@main

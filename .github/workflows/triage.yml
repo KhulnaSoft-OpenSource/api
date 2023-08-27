@@ -8,4 +8,4 @@ on:
 
 jobs:
   assign:
-    uses: khulnasoft-opensource/hot/.github/workflows/triage.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/triage.yml@main
