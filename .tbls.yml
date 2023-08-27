@@ -1,0 +1,25 @@
+name: khulnasoft.dev database structure
+desc: 🍕 The backend for the site that recommends the hottest projects on GitHub.
+
+include:
+  - public.*
+
+exclude:
+  - public.subscriptions
+
+detectVirtualRelations:
+  enabled: false
+  strategy: default
+
+format:
+  adjust: true
+  sort: false
+  number: false
+  showOnlyFirstParagraph: true
+
+er:
+  skip: false
+  format: svg
+  comment: false
+  distance: 2
+  font: ""
