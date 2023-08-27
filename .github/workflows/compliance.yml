@@ -12,4 +12,4 @@ permissions:
 
 jobs:
   compliance:
-    uses: khulnasoft-opensource/hot/.github/workflows/compliance.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/compliance.yml@main
