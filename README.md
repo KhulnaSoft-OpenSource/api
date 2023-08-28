@@ -1,11 +1,8 @@
 <div align="center">
   <br>
-  <img alt="KhulnaSoft OpenSource" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px">
   <h1>🍕 KhulnaSoft OpenSource Insights API 🍕</h1>
   <strong>The path to your next Open Source contribution</strong>
   <br>
-  <br>
-  <a href="https://www.digitalocean.com/?refcode=c65a90d0956d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 </div>
 <br>
 <p align="center">
