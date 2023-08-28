@@ -1,8 +1,11 @@
 <div align="center">
   <br>
+  <img alt="KhulnaSoft OpenSource" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px">
   <h1>🍕 KhulnaSoft OpenSource Insights API 🍕</h1>
   <strong>The path to your next Open Source contribution</strong>
   <br>
+  <br>
+  <a href="https://www.digitalocean.com/?refcode=c65a90d0956d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 </div>
 <br>
 <p align="center">
@@ -17,8 +20,8 @@
   <a href="https://discord.gg/U2peSNf23P">
     <img src="https://img.shields.io/discord/714698561081704529.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
   </a>
-  <a href="https://twitter.com/khulnasoft">
-    <img src="https://img.shields.io/twitter/follow/khulnasoft?label=Follow&style=social" alt="Twitter">
+  <a href="https://twitter.com/Khulnasoft">
+    <img src="https://img.shields.io/twitter/follow/Khulnasoft?label=Follow&style=social" alt="Twitter">
   </a>
 </p>
 

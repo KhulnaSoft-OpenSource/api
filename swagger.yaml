@@ -3147,7 +3147,7 @@ paths:
       operationId: createEndorsement
       summary: Creates a new endorsement record
       parameters:
-        - name: X-OpenSauced-token
+        - name: X-Khulnasoft-token
           required: true
           in: header
           schema:
@@ -4185,7 +4185,7 @@ components:
         bio:
           type: string
           description: User bio information
-          example: OpenSauced User
+          example: Khulnasoft User
         name:
           type: string
           description: User name information
@@ -4197,11 +4197,11 @@ components:
         twitter_username:
           type: string
           description: User Twitter information
-          example: khulnasoft
+          example: Khulnasoft
         company:
           type: string
           description: User company information
-          example: OpenSauced
+          example: Khulnasoft
         location:
           type: string
           description: User location information
@@ -4268,15 +4268,15 @@ components:
         twitter_username:
           type: string
           description: User Profile Twitter Username
-          example: khulnasoft
+          example: Khulnasoft
         company:
           type: string
           description: User Profile Company
-          example: OpenSauced
+          example: Khulnasoft
         location:
           type: string
           description: User Profile Location
-          example: OpenSauced
+          example: Khulnasoft
         display_local_time:
           type: boolean
           description: Display user local time in profile
@@ -4334,7 +4334,7 @@ components:
         connected_at:
           format: date-time
           type: string
-          description: Timestamp representing user logging in to khulnasoft opensource for the first
+          description: Timestamp representing user logging in to open khulnasoft for the first
             time
           example: 2022-08-28 22:04:29.000000
         node_id:
@@ -4390,7 +4390,7 @@ components:
         bio:
           type: string
           description: User bio information
-          example: OpenSauced User
+          example: Khulnasoft User
         blog:
           type: string
           description: GitHub blog information
@@ -4402,7 +4402,7 @@ components:
         twitter_username:
           type: string
           description: User Twitter information
-          example: khulnasoft
+          example: Khulnasoft
         linkedin_url:
           type: string
           description: LinkedIn URL
@@ -4418,7 +4418,7 @@ components:
         company:
           type: string
           description: User company information
-          example: OpenSauced
+          example: Khulnasoft
         location:
           type: string
           description: User location information
@@ -5639,7 +5639,7 @@ components:
           example: 71359796
         is_accepted:
           type: boolean
-          description: Flag representing if the submission is approved by khulnasoft opensource staff
+          description: Flag representing if the submission is approved by open khulnasoft staff
           example: false
         created_at:
           format: date-time
@@ -5692,7 +5692,7 @@ components:
         url:
           type: string
           description: Contribution GitHub origin URL
-          example: https://github.com/khulnasoft-opensource/hot/pull/320
+          example: https://github.com/khulnasoft-opensource/trending/pull/320
       required:
         - id
         - repo_id

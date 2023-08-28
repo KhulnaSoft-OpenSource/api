@@ -95,7 +95,7 @@ export class DbContribution extends BaseEntity {
 
   @ApiModelProperty({
     description: "Contribution GitHub origin URL",
-    example: "https://github.com/khulnasoft-opensource/hot/pull/320",
+    example: "https://github.com/khulnasoft-opensource/trending/pull/320",
   })
   @Column({
     type: "character varying",

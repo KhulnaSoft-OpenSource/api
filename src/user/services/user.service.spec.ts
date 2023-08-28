@@ -194,7 +194,7 @@ describe("UserService", () => {
       getOne: jest.fn().mockResolvedValue(user),
     };
 
-    it("should return the user if found and mark him as khulnasoft opensource user if he was not", async () => {
+    it("should return the user if found and mark him as open khulnasoft user if he was not", async () => {
       dbUserRepositoryMock.createQueryBuilder?.mockReturnValue(createQueryBuilderMock);
       const result = await userService.checkAddUser(supabaseUser);
 
@@ -207,7 +207,7 @@ describe("UserService", () => {
       expect(result).toEqual(user);
     });
 
-    it("should create a new user if not found and mark him as khulnasoft opensource user", async () => {
+    it("should create a new user if not found and mark him as open khulnasoft user", async () => {
       (createQueryBuilderMock.getOne = jest.fn().mockResolvedValue(null)),
         dbUserRepositoryMock.createQueryBuilder?.mockReturnValue(createQueryBuilderMock);
       await userService.checkAddUser(supabaseUser);

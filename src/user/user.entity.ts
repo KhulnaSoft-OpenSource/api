@@ -104,7 +104,7 @@ export class DbUser extends BaseEntity {
   public first_pushed_commit_at?: Date;
 
   @ApiModelPropertyOptional({
-    description: "Timestamp representing user logging in to khulnasoft opensource for the first time",
+    description: "Timestamp representing user logging in to open khulnasoft for the first time",
     example: "2022-08-28 22:04:29.000000",
   })
   @Column({
@@ -224,7 +224,7 @@ export class DbUser extends BaseEntity {
 
   @ApiModelProperty({
     description: "User bio information",
-    example: "OpenSauced User",
+    example: "Khulnasoft User",
   })
   @Column({
     type: "character varying",
@@ -254,7 +254,7 @@ export class DbUser extends BaseEntity {
 
   @ApiModelProperty({
     description: "User Twitter information",
-    example: "khulnasoft",
+    example: "Khulnasoft",
   })
   @Column({
     type: "character varying",
@@ -294,7 +294,7 @@ export class DbUser extends BaseEntity {
 
   @ApiModelProperty({
     description: "User company information",
-    example: "OpenSauced",
+    example: "Khulnasoft",
   })
   @Column({
     type: "character varying",

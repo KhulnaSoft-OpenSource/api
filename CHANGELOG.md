@@ -1504,13 +1504,13 @@
 
 ### 🐛 Bug Fixes
 
-- correct khulnasoft opensource member created_at timestamp ([89b5329](https://github.com/khulnasoft-opensource/api.khulnasoft.com/commit/89b5329e7cce1b60274d126971b87d63cf476686))
+- correct open khulnasoft member created_at timestamp ([89b5329](https://github.com/khulnasoft-opensource/api.khulnasoft.com/commit/89b5329e7cce1b60274d126971b87d63cf476686))
 
 ### [1.17.1-beta.1](https://github.com/khulnasoft-opensource/api.khulnasoft.com/compare/v1.17.0...v1.17.1-beta.1) (2022-11-11)
 
 ### 🐛 Bug Fixes
 
-- correct khulnasoft opensource member created_at timestamp ([89b5329](https://github.com/khulnasoft-opensource/api.khulnasoft.com/commit/89b5329e7cce1b60274d126971b87d63cf476686))
+- correct open khulnasoft member created_at timestamp ([89b5329](https://github.com/khulnasoft-opensource/api.khulnasoft.com/commit/89b5329e7cce1b60274d126971b87d63cf476686))
 
 ## [1.17.0](https://github.com/khulnasoft-opensource/api.khulnasoft.com/compare/v1.16.0...v1.17.0) (2022-11-11)
 
