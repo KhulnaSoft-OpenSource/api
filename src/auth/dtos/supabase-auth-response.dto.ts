@@ -70,7 +70,7 @@ export class SupabaseAuthDto {
 
   @ApiPropertyOptional({
     description: "User bio information",
-    example: "OpenSauced User",
+    example: "Khulnasoft User",
   })
   readonly bio?: string;
 
@@ -88,13 +88,13 @@ export class SupabaseAuthDto {
 
   @ApiPropertyOptional({
     description: "User Twitter information",
-    example: "khulnasoft",
+    example: "Khulnasoft",
   })
   readonly twitter_username?: string;
 
   @ApiPropertyOptional({
     description: "User company information",
-    example: "OpenSauced",
+    example: "Khulnasoft",
   })
   readonly company?: string;
 

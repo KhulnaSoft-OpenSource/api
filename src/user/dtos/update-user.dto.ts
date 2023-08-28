@@ -39,7 +39,7 @@ export class UpdateUserDto {
   @ApiPropertyOptional({
     description: "User Profile Twitter Username",
     type: String,
-    example: "khulnasoft",
+    example: "Khulnasoft",
   })
   @IsString()
   @Matches(/^(?!.*?admin)(?!.*?twitter)\w{0,15}$/i, {
@@ -52,7 +52,7 @@ export class UpdateUserDto {
   @ApiPropertyOptional({
     description: "User Profile Company",
     type: String,
-    example: "OpenSauced",
+    example: "Khulnasoft",
   })
   @IsString()
   @IsOptional()
@@ -61,7 +61,7 @@ export class UpdateUserDto {
   @ApiPropertyOptional({
     description: "User Profile Location",
     type: String,
-    example: "OpenSauced",
+    example: "Khulnasoft",
   })
   @IsString()
   @IsOptional()

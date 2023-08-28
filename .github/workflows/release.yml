@@ -27,7 +27,7 @@ jobs:
 
   test:
     name: Test and lint
-    uses: khulnasoft-opensource/trending/.github/workflows/compliance.yml@main
+    uses: khulnasoft-opensource/trending/.github/workflows/development.yml@main
 
   docker:
     name: Build container
@@ -191,6 +191,13 @@ jobs:
         run: |
           docker load --input /tmp/docker.tar
           docker image ls -a
+
+      - name: "🚀 release"
+        id: semantic-release
+        uses: khulnasoft-opensource/release@v1
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     if: github.event.repository.default_branch == github.ref_name

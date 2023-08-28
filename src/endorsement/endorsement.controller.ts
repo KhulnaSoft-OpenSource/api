@@ -24,7 +24,7 @@ export class EndorsementController {
   @ApiOkResponse({ type: DbEndorsement })
   @ApiBody({ type: CreateEndorsementDto })
   async createEndorsement(
-    @Headers("X-OpenSauced-token") _token: string,
+    @Headers("X-Khulnasoft-token") _token: string,
     @Body() createEndorsementDto: CreateEndorsementDto
   ) {
     return this.endorsementService.create(createEndorsementDto);

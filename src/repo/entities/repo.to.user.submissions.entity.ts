@@ -43,7 +43,7 @@ export class DbRepoToUserSubmissions {
   public repo_id!: number;
 
   @ApiModelProperty({
-    description: "Flag representing if the submission is approved by khulnasoft opensource staff",
+    description: "Flag representing if the submission is approved by open khulnasoft staff",
     example: false,
   })
   @Column({ default: false })
