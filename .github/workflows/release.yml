@@ -49,7 +49,7 @@ jobs:
           push: false
 
       - name: "📂 docker artifacts"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: docker
           path: /tmp/docker.tar
@@ -81,7 +81,7 @@ jobs:
           TBLS_DOC_PATH: ./public/diagrams
 
       - name: "📊 visualiser artifacts"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: database
           path: public/diagrams/
@@ -110,7 +110,7 @@ jobs:
           npm run docs
 
       - name: "📂 production artifacts"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: dist
           path: dist
@@ -125,7 +125,7 @@ jobs:
           root_path: "src/"
 
       - name: "📊 visualiser artifacts"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: diagram
           path: public/diagram.svg
